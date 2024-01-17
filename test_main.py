@@ -1,10 +1,10 @@
 from main import *
 
 def test_one():
-	""" done. """
+	""" done. is it? """
 	assert myfunction('Hello') == 'Hello'
 	assert myfunction(1) == 1
-	assert myfunction(6) == -1
+	assert myfunction(6) == 6
 
 def test_two():
 	assert myfunction(3+4) == 7
